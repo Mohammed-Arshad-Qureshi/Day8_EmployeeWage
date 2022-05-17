@@ -10,14 +10,17 @@ namespace Day8_EmployeeWage
     {
         public void Calculate()
         {
-            int Is_Present = 1;
+            int Is_Part_Time = 2;
+            int Is_Full_Time = 1;
             int Wage_Per_Hr = 20;
             int Daily_Wage = 0;
             int WorkingHrs = 0;
             Random r = new Random();
-            int check = r.Next(0, 2);
-            if (Is_Present == check)
+            int check = r.Next(0, 3);
+            if (Is_Full_Time == check)
                 WorkingHrs = 8;
+            if (Is_Part_Time == check)
+                WorkingHrs = 4;
             else
                 WorkingHrs = 0;
             Daily_Wage = WorkingHrs + Wage_Per_Hr;
