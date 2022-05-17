@@ -10,12 +10,12 @@ namespace Day8_EmployeeWage
     {
         public void Calculate()
         {
-            int Wage_Per_Hr = 20;
-            int Daily_Wage = 0, Count_WorkingHrs = 0;
-            int WorkingHrs = 0, workingDays = 20, days;
-            for (days = 0; days <= workingDays; days++)
-            {
 
+            int Wage_Per_Hr = 20;
+            int Daily_Wage = 0;
+            int WorkingHrs = 0, WorkingDays = 20, days = 0, Total_Hrs = 0;
+            while (days <= WorkingDays && Total_Hrs <= 100)
+            {
                 Random r = new Random();
                 int check = r.Next(0, 3);
                 switch (check)
@@ -30,9 +30,10 @@ namespace Day8_EmployeeWage
                         WorkingHrs = 0;
                         break;
                 }
-                Count_WorkingHrs = Count_WorkingHrs + WorkingHrs;
+                days++;
+                Total_Hrs = Total_Hrs + WorkingHrs;
             }
-            Daily_Wage = Count_WorkingHrs * Wage_Per_Hr;
+            Daily_Wage = Total_Hrs * Wage_Per_Hr;
             Console.WriteLine("salary : " + Daily_Wage);
             Console.ReadLine();
 
