@@ -10,8 +10,8 @@ namespace Day8_EmployeeWage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Displaying Welcome to Employee Wage Computation Program on Master Branch");
-            Console.ReadLine();
+            Employee e = new Employee();
+            e.Calculate();
         }
     }
 }
