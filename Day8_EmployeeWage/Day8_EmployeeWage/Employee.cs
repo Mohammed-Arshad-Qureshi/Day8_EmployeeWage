@@ -17,13 +17,19 @@ namespace Day8_EmployeeWage
             int WorkingHrs = 0;
             Random r = new Random();
             int check = r.Next(0, 3);
-            if (Is_Full_Time == check)
-                WorkingHrs = 8;
-            if (Is_Part_Time == check)
-                WorkingHrs = 4;
-            else
-                WorkingHrs = 0;
-            Daily_Wage = WorkingHrs + Wage_Per_Hr;
+            switch (check)
+            {
+                case 1:
+                    WorkingHrs = 8;
+                    break;
+                case 2:
+                    WorkingHrs = 4;
+                    break;
+                default:
+                    WorkingHrs = 0;
+                    break;
+            }
+            Daily_Wage = WorkingHrs * Wage_Per_Hr;
             Console.WriteLine(Daily_Wage);
             Console.ReadLine();
         }
