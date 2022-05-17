@@ -1,0 +1,7 @@
+E:\Visual_Studio\Day-8\Day8_EmployeeWage\Day8_EmployeeWage\bin\Debug\Day8_EmployeeWage.exe.config
+E:\Visual_Studio\Day-8\Day8_EmployeeWage\Day8_EmployeeWage\bin\Debug\Day8_EmployeeWage.exe
+E:\Visual_Studio\Day-8\Day8_EmployeeWage\Day8_EmployeeWage\bin\Debug\Day8_EmployeeWage.pdb
+E:\Visual_Studio\Day-8\Day8_EmployeeWage\Day8_EmployeeWage\obj\Debug\Day8_EmployeeWage.csproj.AssemblyReference.cache
+E:\Visual_Studio\Day-8\Day8_EmployeeWage\Day8_EmployeeWage\obj\Debug\Day8_EmployeeWage.csproj.CoreCompileInputs.cache
+E:\Visual_Studio\Day-8\Day8_EmployeeWage\Day8_EmployeeWage\obj\Debug\Day8_EmployeeWage.exe
+E:\Visual_Studio\Day-8\Day8_EmployeeWage\Day8_EmployeeWage\obj\Debug\Day8_EmployeeWage.pdb
